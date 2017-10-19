@@ -56,8 +56,9 @@ UIButton *createKey(UIImage *background,
     if (font) {
         key.titleLabel.font = font;
     }
+    key.titleLabel.numberOfLines = 1;
     key.titleLabel.adjustsFontSizeToFitWidth = YES;
-
+    key.titleLabel.lineBreakMode = NSLineBreakByClipping;
     
     return key;
 };
