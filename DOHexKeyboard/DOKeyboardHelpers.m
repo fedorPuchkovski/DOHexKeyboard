@@ -81,7 +81,7 @@ void initializeKeyConfiguration() {
         if (fontForNumberNormal == nil) {
             fontForNumberNormal = [UIFont fontWithName:@"HelveticaNeue-Light" size:29.5];
             fontForNumberHex = [UIFont fontWithName:@"HelveticaNeue-Light" size:28];
-            fontForText = [UIFont fontWithName:@"HelveticaNeue-Light" size:18];
+            fontForText = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
         }
         
         
