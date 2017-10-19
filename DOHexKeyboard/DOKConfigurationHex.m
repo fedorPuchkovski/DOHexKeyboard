@@ -55,7 +55,7 @@
         
         // create "clear", "0", "delete" and "return" keys
         DOKKeyFrame frame;
-        UIButton *clearKey = createKeyWithText(@"clear");
+        UIButton *clearKey = createKeyWithText(@"Очистить");
         clearKey.tag = DOKeyboardKeyTypeClear;
         frame = (DOKKeyFrame){3, 0, 1, 1};
         [keyFrames addObject:[NSValue value:&frame withObjCType:@encode(DOKKeyFrame)]];
@@ -67,7 +67,7 @@
         deleteKey.tag = DOKeyboardKeytypeDelete;
         frame = (DOKKeyFrame){3, 2, 1, 1};
         [keyFrames addObject:[NSValue value:&frame withObjCType:@encode(DOKKeyFrame)]];
-        UIButton *returnKey =  createKeyWithText(@"return");
+        UIButton *returnKey =  createKeyWithText(@"Свернуть");
         returnKey.tag = DOKeyboardKeyTypeReturn;
         frame = (DOKKeyFrame){3, 3, 1, 2};
         [keyFrames addObject:[NSValue value:&frame withObjCType:@encode(DOKKeyFrame)]];
