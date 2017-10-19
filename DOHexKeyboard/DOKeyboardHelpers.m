@@ -56,6 +56,8 @@ UIButton *createKey(UIImage *background,
     if (font) {
         key.titleLabel.font = font;
     }
+    key.titleLabel.adjustsFontSizeToFitWidth = YES;
+
     
     return key;
 };
